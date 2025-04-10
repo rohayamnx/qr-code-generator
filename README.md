@@ -1,13 +1,30 @@
-# React + Vite
+# QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![QR Code Generator Demo](public/demo.png)  
+*A modern QR code generator built with React + Vite, deployed on Vercel*
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Lightning Fast**: Vite-powered React app with instant HMR
+- **Custom QR Codes**: Generate codes for URLs, text, Wi-Fi config, etc.
+- **Downloadable**: Save QR codes as PNG images
+- **Responsive**: Works on all devices
+- **Zero Config Deployment**: Automatically deployed via Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 **[View Live on Vercel](https://qr-code-generator-rx.vercel.app/)**  
 
-## Expanding the ESLint configuration
+[![Deployed with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# qr-code-generator
+## 🛠️ Technologies
+- **Frontend**: React 18 + Vite
+- **QR Generation**: [qrcode.react](https://www.npmjs.com/package/qrcode.react)
+- **Styling**: CSS Modules/Tailwind
+- **Linting**: ESLint + Prettier
+- **Deployment**: Vercel (Hobby Plan)
+
+## 📦 Installation
+```bash
+git clone https://github.com/rohayamnx/qr-code-generator.git
+cd qr-code-generator
+npm install
+npm run dev
