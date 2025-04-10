@@ -6,7 +6,7 @@
 ## ✨ Features
 - **Lightning Fast**: Vite-powered React app with instant HMR
 - **Custom QR Codes**: Generate codes for URLs, text, Wi-Fi config, etc.
-- **Downloadable**: Save QR codes as PNG images
+- **Downloadable**: Save QR codes as **PDF files** (with optional text labels)
 - **Responsive**: Works on all devices
 - **Zero Config Deployment**: Automatically deployed via Vercel
 
