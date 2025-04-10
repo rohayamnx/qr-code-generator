@@ -51,7 +51,7 @@ const PDFGenerator = ({ urls }) => {
     }
 
     const pdfBlob = doc.output('blob');
-    saveAs(pdfBlob, 'qrcodes.pdf');
+    saveAs(pdfBlob, 'qr-codes.pdf');
   };
 
   return (
